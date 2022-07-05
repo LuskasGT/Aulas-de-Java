@@ -1,0 +1,14 @@
+* Classe - Descrição de um grupo de objetos
+
+
+- o que é uma classe?
+R:   Uma classe é um elemento do código Java que utilizamos para representar objetos do mundo real. Dentro dela é comum declararmos atributos e métodos, 
+	que representam, respectivamente, as características e comportamentos desse objeto.
+
+- como identificar uma classe?
+R:   Resultado de imagem para o que é uma classe em java
+	Classes, Objetos, Atributos e Métodos em Java
+	Toda classe possui um nome;
+	Possuem visibilidade, exemplo: public, private, protected;
+	Possuem membros como: Características e Ações;
+	Para criar uma classe basta declarar a visibilidade + digitar a palavra reservada class + NomeDaClasse + abrir e fechar chaves { }.
