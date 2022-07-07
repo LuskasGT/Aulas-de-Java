@@ -1,0 +1,88 @@
+TIPOS DE VARIAVEIS 
+
+* Inteiros
+* Ponto Flutuante
+* Char
+* Boolean
+* Literais
+
+------------------------------------------------------
+															        
+ - Boolean ->  São valores de verdadeiro ou falso; 									
+ - Numeros ->  São números inteiros                                                        
+ - Pontos Flutuante  ->  Numeros com casas decimais, tipo 10,2;						
+ - Inteiro ->  Vai o: byte, short, int, long, char                                            
+ 				 byte: São números bem pequenos, um pouco maior que 1by                 
+ 				 	short: Números um pouco maior que o byte                         
+ 				 		  int: Um pouco maior que o short                           
+ 				 		  	long: Maior que o int                                 
+ 
+ 
+ 
+------------------------------------------------------ 
+ 
+ 									INTEIROS
+ 
+ Cada um do tipo do Inteiro oculpa um tanto na memoria
+ 	Para ser considerado um BYTE os números tem que ser entre   -128 a 127
+ 	Para ser considerado um SHORT os números tem que ser entre   -32.768  a  32.767
+ 	Para ser considerado um INT os números tem que ser entre  -2.147.648  a  2.147.647
+ 	Para ser consideradi um LONG os números tem que ser entre  -9.223.327.036.854.775.808  a  9.223.327.036.854.775.807  
+ 	
+ 	
+ 	
+	
+ Na pratica para declarar vc faz assim
+  byte <Váriavel> = <VALOR>;
+  short <Váriavel> = <VALOR>;
+  ...
+  byte idade = 20;
+  
+  
+  
+  
+------------------------------------------------------
+
+								PONTOS FLUTUANTES  
+								
+								
+Float		OS DOIS SÃO A MESMA COISA, mas o mais comum usar é o DOUBLE
+Double 	
+  
+  
+ Na pratica para declarar vc faz assim
+  float <Váriavel> = <VALOR>;
+  double <Váriavel> = <VALOR>;
+  
+  float saldo1 = 200.20f;       /* o " f ", adiciona ele para declarar que é um número quebrado */
+  double saldo2 = 100.30;   ou   double saldo2 = 100e30;  /*seria em notação cientifica */
+  
+  
+  
+------------------------------------------------------
+
+								CHAR
+								
+Char seria apenas letras do alfabeto mesmo, mas pode ser guardado por números da tabela ASCII								  
+  
+  
+ Na pratica para declarar vc faz assim
+  char <Váriavel> = <VALOR>;
+  
+  char letra = "A";
+  char letra = 0x00E1;  /*Seria um ! */
+  
+  
+------------------------------------------------------
+
+							boolean
+							
+Seria apenas para declarar verdadeiro ou falso:  true  false
+
+ Na pratica para declarar vc faz assim
+  boolean <Váriavel> = <VALOR>;
+  
+  boolean claro = true;
+  boolean não = false;
+							
+  
