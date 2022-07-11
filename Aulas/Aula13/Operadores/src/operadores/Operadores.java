@@ -83,6 +83,25 @@ public class Operadores {
         System.out.println("valor1 < valor2: " + (valor1 < valor2));
         System.out.println("valor1 >= valor2: " + (valor1 >= valor2));
         System.out.println("valor1 <= valor2: " + (valor1 <= valor2));
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        //Operadores relacionais
+        int valor3 = 1;
+        int valor4 =2;
+        
+        boolean resultado1 = (valor3 ==1) && (valor4 ==2);
+        System.out.println("valor é 1 AND valor2 é 2 - resultado: "+ resultado1);
+        
+           
+        boolean resultado2 = (valor3 ==1) || (valor4 ==2);
+         System.out.println("valor é 1 AND valor2 é 2 - resultado: "+ resultado2);
     }
 
 }

@@ -17,3 +17,13 @@ PARA MAIS EXEMPLOS E MAIS EXPLICADO VAI NO CÓDIGO
   <    menor que
   >=   maior ou igual que
   <=   manor ou igual que
+  
+  
+  
+  
+  &   AND
+  |   OR
+  ^   XOR
+  ||  OR curto
+  &&   AND curto circuito
+  !   NOT
