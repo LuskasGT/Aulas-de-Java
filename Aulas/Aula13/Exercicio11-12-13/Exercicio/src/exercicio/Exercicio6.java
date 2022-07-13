@@ -12,7 +12,12 @@ import java.util.Scanner;
  * @author lucas
  */
 public class Exercicio6 {
-    Scanner scan = new Scanner (System.in);
-    
-    
+    public static void  main (String[] args){ 
+        Scanner scan = new Scanner (System.in);
+        System.out.println("Digite o raio do circulo para podermos calcular a sua área: ");
+        double raio = scan.nextFloat();
+        double area = Math.PI  * Math.pow (raio , 2);
+        System.out.println("A area é de "+ area);
+        
+    }
 }
