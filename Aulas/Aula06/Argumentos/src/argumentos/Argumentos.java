@@ -10,10 +10,6 @@ package argumentos;
  * @author lucas
  */
 public class Argumentos {
-
-    /**
-     * @param args the command line arguments
-     */
     public static void main (String[] args) {
         System.out.println("Você digitou " + args[0]);
     }

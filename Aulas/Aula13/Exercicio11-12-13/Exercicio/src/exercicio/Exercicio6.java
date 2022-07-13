@@ -5,17 +5,14 @@
  */
 package exercicio;
 
+import java.util.Scanner;
 
 /**
  *
  * @author lucas
  */
-public class Exercicio {
-    public static void main(String[] args) {
-        System.out.println ("Alo mundo"+args[0]); /*Exercício 01*/
-        
-
-    }
+public class Exercicio6 {
+    Scanner scan = new Scanner (System.in);
     
     
 }
