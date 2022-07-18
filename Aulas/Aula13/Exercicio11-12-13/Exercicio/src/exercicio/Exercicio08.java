@@ -11,7 +11,7 @@ import java.util.Scanner;
  *
  * @author lucas
  */
-public class Exercicio8 {
+public class Exercicio08 {
     public static void main(String[] args){
         Scanner scan = new Scanner(System.in);
         System.out.println("Digite quantas horas vc trabalha por mês e quanto vc ganha por hora: ");

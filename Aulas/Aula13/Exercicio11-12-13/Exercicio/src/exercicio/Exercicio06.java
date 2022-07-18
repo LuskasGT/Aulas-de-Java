@@ -11,7 +11,7 @@ import java.util.Scanner;
  *
  * @author lucas
  */
-public class Exercicio6 {
+public class Exercicio06 {
     public static void  main (String[] args){ 
         Scanner scan = new Scanner (System.in);
         System.out.println("Digite o raio do circulo para podermos calcular a sua área: ");

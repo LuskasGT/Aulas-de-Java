@@ -10,7 +10,7 @@ package exercicio;
  *
  * @author lucas
  */
-public class Exercicio {
+public class Exercicio01 {
     public static void main(String[] args) {
         System.out.println ("Alo mundo"+args[0]); /*Exercício 01*/
         

@@ -11,13 +11,15 @@ import java.util.Scanner;
  *
  * @author lucas
  */
-public class Exercicio9 {
+public class Exercicio05 {
     public static void main (String[] args){
         Scanner scan = new Scanner (System.in);
-        System.out.println("Digite a temperatura em F° para transformalo em Celsius: ");
-        double Fah = scan.nextDouble();
-        Fah = 5 *(Fah -32)/9;
-        System.out.println("A temperatura é de "+Fah);
-    }
     
+        System.out.println("Digite os metros para transformar em centimetros: ");
+        float metros = scan.nextFloat();
+        float cm = metros * 100;
+        System.out.println("o valor em cm é " + cm);
+        
+        
+    }
 }
