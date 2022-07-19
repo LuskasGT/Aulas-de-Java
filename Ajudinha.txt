@@ -1,0 +1,97 @@
+Esse é o ajudinha, ele servira para tirar a suas dúvidas rapidamente, ele só é umas anotações msm.
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+							METODO
+							
+							
+Primeiramente vc vai colocar o metodo se vai ser publico ou provado, até então ela só ensinou o com o publico, então... Vou usaro exemplo do publico:
+
+	public static void main (String[] args){
+		
+			/*Aqui vc coloca o seu código*/
+	}							
+--------------------------------------------							
+							PRINT 
+							
+							
+Para você printar algo na tela vc usa o comando:
+
+	System.out.println("");	
+--------------------------------------------
+							SCANNER(scan) - USUSARIO DIGITANDO
+							
+
+Bom para fazer o usuário poder digitar, vc vai ter que importar uma biblioteca, fora do 	public static...
+
+	import java.util.Scanner;   			/*Você tbm pode apenas digitar o código abaixo e apertar na lampada e importar de lá, em vez de escrever(recomendo)*/
+
+
+dps, detro do public static...
+
+	Scanner scan = new Scanner (System.in); 
+	
+	
+Para colocar em uma variavel, vc manda: 		(dentro do public static...) 
+
+	TIPO VARIAVEL = scan.nextTIPO();
+	int idade = scan.nextInt();
+	
+	
+	
+Dica, vc pode responder várias coisas na mesma linha, por exemplo:
+
+	System.out.println("Digite a sua idade, dia que nasceu, mês em que nasceu e o ano: ");
+	int idade = scan.nextInt();
+	int dia = scan.nextInt();
+	int mes = scan.nextInt();
+	int ano = scan.nextInt();
+	
+	-------------------
+	Resposta do usu:17 15 08 2005	     			/*Aqui as váriaveis vai receber cada uma, a primeira váriavel vai ficar com o 17, a segunda com o 15 e assim em diante*/
+--------------------------------------------
+							TIPOS DE VÁRIAVEIS
+							
+* Inteiros
+* Ponto Flutuante
+* Char
+* Boolean
+* Literais
+															        
+	 - Boolean ->  São valores de verdadeiro ou falso; 									
+	 - Numeros ->  São números inteiros                                                        
+	 - Pontos Flutuante  ->  Numeros com casas decimais, tipo 10,2;						
+	 - Inteiro ->  Vai o: byte, short, int, long, char                                            
+	 				 byte: São números bem pequenos, um pouco maior que 1by                 
+	 				 	short: Números um pouco maior que o byte                         
+	 				 		  int: Um pouco maior que o short                           
+	 				 		  	long: Maior que o int        
+	 				 		  	                         
+	 
+O QUE VC VAI MAIS USAR (acredito):
+
+int				/*Para os números inteiros, mas outros tipos que fazem a msm coisa, ta ai em cima*/
+double			/*É igual a um float, mas o float tem uma regrinha chata, então usa esse*/
+char				/*Para caracteres, como frases ou letra*/
+
+Exemplo:
+	int dia = 15;
+	double peso = 63.5;
+	char fraseFoda = "Não sei nenhuma";
+
+--------------------------------------------
+							IF - ELSE - ELSE IF 
+							
+						
+Para conseguir usar o IF, ELSE e o ELSE IF:
+
+	if (idade >= 18){
+		System.out.println("Você é maior de idade");
+	}
+	else if (idade > 25 && idade < 30 ){
+		System.out.println("Seila é só para mostrar o else if com && (o && seria o and)");
+	}
+	else {
+		System.out.println("Você é menor de idade");
+	}						
+						
+/*Fica esperto com o and, é que não usa o and aqui, usaa o && no lugar (sim, usa 2x o &)*/
