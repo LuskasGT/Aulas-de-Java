@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Aula06/Argumentos/Argumentos.iml" filepath="$PROJECT_DIR$/Aula06/Argumentos/Argumentos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Aula10/Aula10.iml" filepath="$PROJECT_DIR$/Aula10/Aula10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Aula11/Aula11.iml" filepath="$PROJECT_DIR$/Aula11/Aula11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Aula12/Aula12.iml" filepath="$PROJECT_DIR$/Aula12/Aula12.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Aula14/Aula14.iml" filepath="$PROJECT_DIR$/Aula14/Aula14.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Aula15/Aula15.iml" filepath="$PROJECT_DIR$/Aula15/Aula15.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Aulas.iml" filepath="$PROJECT_DIR$/.idea/Aulas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Aula07/Erro01/Erro01.iml" filepath="$PROJECT_DIR$/Aula07/Erro01/Erro01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Aula07/Erro02/Erro02.iml" filepath="$PROJECT_DIR$/Aula07/Erro02/Erro02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Aula07/Erro03/Erro03.iml" filepath="$PROJECT_DIR$/Aula07/Erro03/Erro03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Aula06/Exercicio/Exercicio.iml" filepath="$PROJECT_DIR$/Aula06/Exercicio/Exercicio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Aula13/Exercicio11-12-13/Exercicio11-12-13.iml" filepath="$PROJECT_DIR$/Aula13/Exercicio11-12-13/Exercicio11-12-13.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Aula05/Exercício/Exercício.iml" filepath="$PROJECT_DIR$/Aula05/Exercício/Exercício.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Aula05/HelloWorld/HelloWorld.iml" filepath="$PROJECT_DIR$/Aula05/HelloWorld/HelloWorld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Aula13/Operadores/Operadores.iml" filepath="$PROJECT_DIR$/Aula13/Operadores/Operadores.iml" />
+    </modules>
+  </component>
+</project>
