@@ -95,3 +95,23 @@ Para conseguir usar o IF, ELSE e o ELSE IF:
 	}						
 						
 /*Fica esperto com o and, é que não usa o and aqui, usaa o && no lugar (sim, usa 2x o &)*/
+
+--------------------------------------------
+							SWITCH CASE
+
+
+Ele é uma alternativa de vários if e else alinhados, ele seria uma maneira mais "Elegante" para não ficar tudo alinhado e feio pq vai ta tudo reto
+O seu comando é bem simples, também pode ser usado como IF e ELSE
+explicando:
+
+
+
+	switch(VARIAVEL){     		/*Aqui eu vou estar usando o exemplo da aula15, a váriavel da aula recebe um número do usuário*/
+	case 1: System.out.println("Domingo"); break;		/*case 1:   Seria para caso o usuário digite 1       System... vai printar o texto        break  vai fazer para pq ai ele vai entender que é um sistema de IF e Else, sem ele o programa vai printar tudo o que vc colocar*/
+	case 2: System.out.println("Segunda"); break;
+	...
+	case 3: System.out.println("Sábado"); break;
+	default: System.out.println("Esse não é um dia da seamana válido"); break;	/*O default seria para caso nenhum desse o famoso ELSE*/
+		
+	}
+--------------------------------------------
