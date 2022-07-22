@@ -71,18 +71,18 @@ O QUE VC VAI MAIS USAR (acredito):
 
 int				/*Para os números inteiros, mas outros tipos que fazem a msm coisa, ta ai em cima*/
 double			/*É igual a um float, mas o float tem uma regrinha chata, então usa esse*/
-char				/*Para caracteres, como frases ou letra*/
-
+String			/*Para caracteres, como frases ou letra*/ 
 Exemplo:
 	int dia = 15;
 	double peso = 63.5;
-	char fraseFoda = "Não sei nenhuma";
+	String fraseFoda = "Não sei nenhuma";
 
 --------------------------------------------
 							IF - ELSE - ELSE IF 
 							
 						
 Para conseguir usar o IF, ELSE e o ELSE IF:
+USANDO NÙMEROS
 
 	if (idade >= 18){
 		System.out.println("Você é maior de idade");
@@ -94,7 +94,21 @@ Para conseguir usar o IF, ELSE e o ELSE IF:
 		System.out.println("Você é menor de idade");
 	}						
 						
+						
 /*Fica esperto com o and, é que não usa o and aqui, usaa o && no lugar (sim, usa 2x o &)*/
+USANDO STRING
+
+	System.out.println("Digite F ou M: ");
+	String sexo = scan.next();
+	
+	if (sexo.equalsIgnoreCase("F")){   /*Vai pegar o f minusculo tbm*/
+	    System.out.println("F de Feminino");
+	} else if (sexo.equalsIgnoreCase("M")){
+	    System.out.println("M de Masculino");
+	}else {
+	    System.out.println("Sexo inválido");
+	}
+
 
 --------------------------------------------
 							SWITCH CASE
